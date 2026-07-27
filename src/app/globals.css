@@ -68,29 +68,28 @@
 }
 
 :root {
-  /* Warm near-white with a faint stone-green tint — calm for all-day use.
-     Slightly deeper than the cards so surfaces gain depth. Placeholder
-     neutro até a identidade visual da Injecta ser enviada. */
-  --background: oklch(0.984 0.004 125);
-  --foreground: oklch(0.24 0.02 150);
+  /* Warm near-white with a faint blue tint — calm for all-day use.
+     Slightly deeper than the cards so surfaces gain depth. */
+  --background: oklch(0.984 0.004 262);
+  --foreground: oklch(0.22 0.03 262);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.24 0.02 150);
+  --card-foreground: oklch(0.22 0.03 262);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.24 0.02 150);
-  /* Deep cultivated leaf green — placeholder da marca */
-  --primary: oklch(0.49 0.09 156);
-  --primary-foreground: oklch(0.985 0.01 150);
-  --secondary: oklch(0.96 0.01 140);
-  --secondary-foreground: oklch(0.32 0.03 152);
-  --muted: oklch(0.965 0.006 135);
-  --muted-foreground: oklch(0.52 0.018 150);
-  --accent: oklch(0.95 0.02 150);
-  --accent-foreground: oklch(0.32 0.04 152);
+  --popover-foreground: oklch(0.22 0.03 262);
+  /* Injecta royal blue (#1f4594) — the brand spine */
+  --primary: oklch(0.412 0.137 262.6);
+  --primary-foreground: oklch(0.985 0.01 262);
+  --secondary: oklch(0.96 0.012 262);
+  --secondary-foreground: oklch(0.32 0.05 262);
+  --muted: oklch(0.965 0.008 262);
+  --muted-foreground: oklch(0.52 0.02 262);
+  --accent: oklch(0.95 0.025 262);
+  --accent-foreground: oklch(0.32 0.06 262);
   --destructive: oklch(0.55 0.2 27);
   --destructive-foreground: oklch(0.985 0.01 60);
-  --border: oklch(0.91 0.006 135);
-  --input: oklch(0.91 0.006 135);
-  --ring: oklch(0.49 0.09 156);
+  --border: oklch(0.91 0.008 262);
+  --input: oklch(0.91 0.008 262);
+  --ring: oklch(0.412 0.137 262.6);
   /* Domain status / priority tokens */
   --info: oklch(0.55 0.13 245);
   --info-foreground: oklch(0.985 0.01 245);
@@ -100,22 +99,22 @@
   --warning-foreground: oklch(0.28 0.05 75);
   --danger: oklch(0.57 0.21 27);
   --danger-foreground: oklch(0.985 0.01 27);
-  /* Charts: leaf, amber, teal, clay, violet */
-  --chart-1: oklch(0.49 0.09 156);
+  /* Charts: blue (brand), amber, orange (brand), teal, violet */
+  --chart-1: oklch(0.412 0.137 262.6);
   --chart-2: oklch(0.74 0.15 75);
-  --chart-3: oklch(0.6 0.1 200);
-  --chart-4: oklch(0.62 0.16 40);
+  --chart-3: oklch(0.683 0.17 48.3);
+  --chart-4: oklch(0.6 0.1 200);
   --chart-5: oklch(0.55 0.13 290);
   --radius: 0.55rem;
-  /* Deep green sidebar — placeholder da marca */
-  --sidebar: oklch(0.27 0.04 156);
-  --sidebar-foreground: oklch(0.92 0.02 140);
-  --sidebar-primary: oklch(0.62 0.12 150);
-  --sidebar-primary-foreground: oklch(0.18 0.03 156);
-  --sidebar-accent: oklch(0.34 0.045 156);
-  --sidebar-accent-foreground: oklch(0.97 0.01 140);
-  --sidebar-border: oklch(0.38 0.04 156);
-  --sidebar-ring: oklch(0.62 0.12 150);
+  /* Deep royal blue sidebar — branded, premium, distinct from the canvas */
+  --sidebar: oklch(0.22 0.045 262);
+  --sidebar-foreground: oklch(0.92 0.02 262);
+  --sidebar-primary: oklch(0.62 0.12 262);
+  --sidebar-primary-foreground: oklch(0.18 0.03 262);
+  --sidebar-accent: oklch(0.3 0.05 262);
+  --sidebar-accent-foreground: oklch(0.97 0.01 262);
+  --sidebar-border: oklch(0.36 0.045 262);
+  --sidebar-ring: oklch(0.62 0.12 262);
   /* Ticket status hues */
   --status-new: oklch(0.55 0.14 250);
   --status-open: oklch(0.52 0.1 195);
@@ -136,25 +135,25 @@
 }
 
 .dark {
-  --background: oklch(0.18 0.015 150);
-  --foreground: oklch(0.95 0.01 140);
-  --card: oklch(0.22 0.02 152);
-  --card-foreground: oklch(0.95 0.01 140);
-  --popover: oklch(0.22 0.02 152);
-  --popover-foreground: oklch(0.95 0.01 140);
-  --primary: oklch(0.65 0.12 152);
-  --primary-foreground: oklch(0.16 0.03 156);
-  --secondary: oklch(0.28 0.03 152);
-  --secondary-foreground: oklch(0.95 0.01 140);
-  --muted: oklch(0.28 0.025 152);
-  --muted-foreground: oklch(0.72 0.02 145);
-  --accent: oklch(0.32 0.04 152);
-  --accent-foreground: oklch(0.95 0.01 140);
+  --background: oklch(0.16 0.02 262);
+  --foreground: oklch(0.95 0.012 262);
+  --card: oklch(0.2 0.025 262);
+  --card-foreground: oklch(0.95 0.012 262);
+  --popover: oklch(0.2 0.025 262);
+  --popover-foreground: oklch(0.95 0.012 262);
+  --primary: oklch(0.62 0.12 262);
+  --primary-foreground: oklch(0.15 0.03 262);
+  --secondary: oklch(0.27 0.035 262);
+  --secondary-foreground: oklch(0.95 0.012 262);
+  --muted: oklch(0.27 0.028 262);
+  --muted-foreground: oklch(0.72 0.02 262);
+  --accent: oklch(0.31 0.045 262);
+  --accent-foreground: oklch(0.95 0.012 262);
   --destructive: oklch(0.7 0.19 22);
   --destructive-foreground: oklch(0.18 0.03 22);
   --border: oklch(1 0 0 / 12%);
   --input: oklch(1 0 0 / 16%);
-  --ring: oklch(0.65 0.12 152);
+  --ring: oklch(0.62 0.12 262);
   --info: oklch(0.68 0.13 245);
   --info-foreground: oklch(0.18 0.03 245);
   --success: oklch(0.7 0.13 150);
@@ -163,19 +162,19 @@
   --warning-foreground: oklch(0.26 0.05 78);
   --danger: oklch(0.7 0.19 25);
   --danger-foreground: oklch(0.18 0.03 25);
-  --chart-1: oklch(0.65 0.12 152);
+  --chart-1: oklch(0.62 0.12 262);
   --chart-2: oklch(0.8 0.14 78);
-  --chart-3: oklch(0.68 0.1 200);
-  --chart-4: oklch(0.7 0.15 40);
+  --chart-3: oklch(0.75 0.16 48.3);
+  --chart-4: oklch(0.68 0.1 200);
   --chart-5: oklch(0.68 0.13 290);
-  --sidebar: oklch(0.16 0.02 156);
-  --sidebar-foreground: oklch(0.92 0.02 140);
-  --sidebar-primary: oklch(0.65 0.12 150);
-  --sidebar-primary-foreground: oklch(0.14 0.03 156);
-  --sidebar-accent: oklch(0.26 0.03 156);
-  --sidebar-accent-foreground: oklch(0.95 0.01 140);
+  --sidebar: oklch(0.14 0.025 262);
+  --sidebar-foreground: oklch(0.92 0.02 262);
+  --sidebar-primary: oklch(0.65 0.12 262);
+  --sidebar-primary-foreground: oklch(0.14 0.03 262);
+  --sidebar-accent: oklch(0.24 0.035 262);
+  --sidebar-accent-foreground: oklch(0.95 0.012 262);
   --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.65 0.12 150);
+  --sidebar-ring: oklch(0.65 0.12 262);
   --status-new: oklch(0.7 0.14 250);
   --status-open: oklch(0.7 0.1 195);
   --status-progress: oklch(0.78 0.14 70);
