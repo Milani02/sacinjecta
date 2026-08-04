@@ -48,3 +48,7 @@ next-env.d.ts
 
 # logo original na raiz (copias derivadas versionadas ficam em public/)
 /logo/
+
+# python cache (docs tooling)
+__pycache__/
+*.pyc
