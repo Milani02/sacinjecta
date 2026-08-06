@@ -169,7 +169,11 @@ export default function LoginPage() {
                 </button>
               </div>
 
-              <Button type="submit" className="w-full" disabled={loading}>
+              <Button
+                type="submit"
+                className="w-full bg-[#ea7224] text-zinc-950 hover:bg-[#ea7224]/85 focus-visible:border-[#ea7224] focus-visible:ring-[#ea7224]/50"
+                disabled={loading}
+              >
                 {loading ? <Spinner data-icon="inline-start" /> : null}
                 Entrar
               </Button>
